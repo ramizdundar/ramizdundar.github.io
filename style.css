@@ -1,0 +1,41 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --font-family: Arial, sans-serif;
+    --container-width: 60%;
+    --container-padding: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #121212;
+        --text-color: #e0e0e0;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: var(--container-width);
+    padding: var(--container-padding);
+    margin-left: calc(10% - var(--container-padding));
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+}
