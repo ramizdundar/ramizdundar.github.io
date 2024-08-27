@@ -7,6 +7,7 @@
 	<title>Ramiz Dundar</title>
 	<!-- Minified version -->
 	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+	<link rel="icon" href="favicon.webp">
 </head>
 
 <body id="top">
@@ -14,19 +15,31 @@
 		<h1>Ramiz Dundar</h1>
 		<p>A software engineer thats built different.</p>
 		<nav>
-			<ul>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#skills">Skills</a></li>
-
-				<li><a href="https://simplecss.org/">Project homepage</a></li>
-				<li><a href="https://github.com/kevquirk/simple.css">GitHub repo</a></li>
-			</ul>
+			<a href="#experience">Experience</a>
+			<a href="#education">Education</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+			<a href="resume.pdf">Resume</a>
 		</nav>
 	</header>
 
 	<main>
+		<p>👋 Hi there!</p>
+		<p>
+			Welcome to my website! I'm a software engineer with over 3 years of experience specializing in distributed 
+			systems and artificial intelligence, with a particular focus on generative transformer models (both in CV 
+			and NLP). 🚀
+		</p>
+		<p>
+			I'm passionate about performance and scalability and always aim to create efficient solutions. Currently, 
+			I'm pursuing my master's degree at Brown University, where I'm leading a project that parallelizes Bash 
+			scripts before distributing them across nodes. 💻✨
+		</p>
+		<p>
+			I'm seeking full-time opportunities starting in May 2025 and am open to both relocation and remote work! 
+			Feel free to explore my work and connect. Let's build something amazing together! 🌍
+		</p>
+
 		<section id="experience">
 			<header>
 				<h1>Experience</h1>
@@ -61,7 +74,7 @@
 					about Linux storage APIs and their trade-offs.
 				</p>
 				<figure>
-					<img src="devdays.jpg" alt="Devdays image">
+					<img src="devdays.webp" alt="Devdays image">
 					<figcaption>Hazelcast Devdays 2023 @ Dubrovnik, Croatia
 					</figcaption>
 			</article>
@@ -113,9 +126,59 @@
 				</p>
 			</article>
 		</section>
+
+		<section id="projects">
+			<header>
+				<h1>Projects</h1>
+			</header>
+			<article>
+				<header>
+					<h3><a href="https://github.com/brown-nuke/nuke-core">Nuke</a></h3>
+				</header>
+				<p>
+					Nuke is a privacy-focused, open-source framework that enables application developers to efficiently 
+					manage user data and comply with privacy regulations. As an example, we also implemented and tested 
+					a basic CLI-based social media platform.
+				</p>
+			</article>
+			<article>
+				<header>
+					<h3><a href="https://github.com/ramizdundar/medical-transformers">Medical Transformers</a></h3>
+				</header>
+				<p>
+					Medical Transformers is a research focused on classifying chest X-ray images into various diseases 
+					using Vision Transformers (ViT).
+				</p>
+				<figure>
+					<img src="medical-transformers.webp" alt="Medical transformer architecture">
+					<figcaption>Strided model architecture for Medical Transformers
+				</figcaption>
+			</article>
+			<article>
+				<header>
+					<h3><a href="https://github.com/ramizdundar/multris">Multris</a></h3>
+				</header>
+				<p>
+					Multris is a multiplayer Tetris game that allows two players on different computers to compete or 
+					collaborate in real-time on a shared game board simultaneously.
+				</p>
+				<figure>
+					<img src="multris.webp" alt="Multris screenshot">
+					<figcaption>A gameplay screenshot from Multris, two players, one board
+				</figcaption>
+			</article>
+		</section>
 	</main>
-	<footer>
-		<p>Based on <a href="http://github.com/cbracco/html5-test-page">HTML5-test-page</a> by cbracco.</p>
+
+	<footer id="contact">
+		<p>
+			You can reach me out via <a href="mailto:ramizdundar@gmail.com">email</a>, <a
+				href="https://www.linkedin.com/in/ramizdundar">LinkedIn</a> or find me on <a
+				href="https://github.com/ramizdundar">GitHub</a>.
+		</p>
+		<p>
+			Last updated: <time datetime="2024-08-27">August 27, 2024</time>
+		</p>
 	</footer>
 </body>
 
